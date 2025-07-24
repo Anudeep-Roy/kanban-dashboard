@@ -18,6 +18,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" type="image/x-icon" href={'/kanban.icon'}></link>
+      </head>
       <body className={inter.className}>
         <ThemeProvider
           attribute="data-theme"
